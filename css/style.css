@@ -36,7 +36,7 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	
-	font-size: 1.25rem;
+	font-size: 1rem;
 	line-height: 1.212121212;
 	color: #241B2C;
 	
@@ -49,6 +49,12 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+@media only screen and (min-width: 30rem) {
+	body {
+		font-size: 1.25rem;
+	}
 }
 
 p {margin-bottom: 1.15rem;}
@@ -145,20 +151,24 @@ ul {list-style: none;}
 	margin: 8px;
 }
 
-/* Nav */
-header img {width: 50%; max-width: 500px;}
-
+section {padding: 5rem 0;}
 
 /* -------- SECTION -------- */
 
-section {padding: 5rem 0;}
+/* Nav */
+header {padding: 1rem 0;}
+header img {width: 50%; max-width: 240px;}
 
+
+/* Hero */
 .hero h1 {max-width: 550px;}
 .hero img {max-width:800px;}
 .intro-p {max-width: 500px; margin: 2rem 0}
 
-@media only screen and (min-width: 40rem) {}
+.estilo-card {margin-bottom: 1rem; padding: 3rem;}
 
-.estilo-card {width: 32%; padding: 3rem;}
-
+@media only screen and (min-width: 40rem) {
+	.estilo-card {width: 32%;}
 }
+
+.intensidad li {width: 10px; height: 10px; background-color}
