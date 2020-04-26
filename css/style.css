@@ -59,16 +59,19 @@ body {
 	position: relative;
 	overflow-x: hidden;
 	width: 100%;
-	background-color: #ffffff;
+	background-color: #F5EBEC;
 }
+
+
 
 
 /* --------- TYPOGRAPHY ---------- */
 
 body {
-	font-family: orpheuspro,serif;
+	font-family: neue-kabel,sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	
 	font-size: 2rem;
 	line-height: 1.212121212;
 	color: #ca9c30;
@@ -88,7 +91,7 @@ p {margin-bottom: 1.15rem;}
 
 h1, h2, h3, h4, h5 {
   margin: 2.75rem 0 1.05rem;
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.15;
 }
 
@@ -116,26 +119,30 @@ small, .text_small {font-size: 0.8em;}
 ul {list-style: none;}
 .text-center {text-align: center;}
 
-/* -------- COLORS -------- */
 
-.main-text-color {fill: #ca9c30;}
-.blue-bg {background-color: #375dbd;}
-.pink {color: #ebb4eb;}
-.beige {color: #f2eeca;}
-.charcoal, .charcoal a, .charcoal li {color: #343332;}
+
+
+/* -------- COLORS -------- */
 
 
 /* Background Colors */
-.bex {background-color: #fbd56f;}
-.okk {background-color: #eb99e7; background-color: #99a8eb; background-color: #b099eb;}
-.kerden {background-color: #f2eeca;}
-.iron-north {background-color: #3a484f;}
+
+.beige-bg {background-color: #F5EBEC;}
+.red-bg {background-color: #FF560D;}
+.yellow-bg {background-color: #FFC30D;}
+.blue-bg {background-color: #8684EF;}
+.pink-bg {background-color: #F784A9;}
+.black-bg {background-color: #241B2C;}
 
 
 /* Text Colors */
-.okk, .okk a {color: white !important;}
-.iron-north, .iron-north a {color: #c5aef3 !important;}
-.iron-north .info-col p, .iron-north .info-col ul {color: #ffffff;}
+.beige {color: #F5EBEC;}
+.red {color: #FF560D;}
+.yellow {color: #FFC30D;}
+.blue {color: #8684EF;}
+.pink {color: #F784A9;}
+.black {color: #241B2C;}
+
 
 
 
