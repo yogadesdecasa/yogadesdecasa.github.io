@@ -156,7 +156,7 @@ ul {list-style: none;}
 	margin: 0 auto;
 }
 
-@media only screen and (max-width: 45rem) {
+@media only screen and (max-width: 55rem) {
 	.col-sm {flex-direction: column;}
 }
 
@@ -197,7 +197,7 @@ header img {width: 50%; max-width: 240px;}
 .intro-p {max-width: 600px;}
 
 
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 45rem) {
 	.hero {min-height: 90vh}
 }
 
@@ -206,7 +206,7 @@ header img {width: 50%; max-width: 240px;}
 .estilos h2 {max-width: 500px;}
 .estilo-card {margin-bottom: 1rem; padding: 3rem 2.5rem; box-shadow: 0px 30px 60px rgba(0,0,0,.1)}
 
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 55rem) {
 	.estilo-card {width: 32%;}
 }
 
