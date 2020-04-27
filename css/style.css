@@ -187,20 +187,22 @@ section {padding: 5rem 0;}
 
 /* Nav */
 header {padding: 1rem 0; position: absolute; left: 0; right: 0;}
-header img {width: 50%; max-width: 150px;}
 
-nav ul li {margin-top: 1rem;margin-left: 2rem;}
+nav ul li {margin-top: 1rem;margin-left: 1rem;}
 nav ul li:first-child {margin-left: 0rem;}
 
+.logo-large {display: none; width: 50%; max-width: 150px;}
+.logo-small {display: block; width: 3.6rem;}
+
 @media only screen and (min-width: 45rem) {
-	header img {max-width: 240px;}
 	nav ul li {margin-left: 2rem;}
+	
+	.logo-large {display: block;max-width: 240px;}
+	.logo-small {display: none;}
 }
 
-@media only screen and (max-width: 45rem) {
-	nav ul li {margin-left: 1rem;}
-	nav ul li a {font-size: 0.8em;}
-}
+
+
 
 /* Hero */
 .hero {
@@ -212,7 +214,6 @@ nav ul li:first-child {margin-left: 0rem;}
 .hero h1 {max-width: 550px; text-shadow: 0px 0px 40px rgba(255,255,255,.9);}
 .intro img {max-width:800px;}
 .intro-p {max-width: 600px;}
-
 
 @media only screen and (min-width: 45rem) {
 	.hero {min-height: 90vh}
