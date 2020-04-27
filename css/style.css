@@ -321,6 +321,15 @@ nav ul li:first-child {margin-left: 0rem;}
 	#staff .profe:first-child {margin-bottom: 0rem;}
 }
 
+/* FAQ */
+#faq dt {
+	padding: 1rem 0;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	margin: 2rem 0 1rem;
+}
+
+
 /* Footer */
 footer {padding: 1rem 0}
 .social a:first-child {margin-right: 2rem; margin-bottom: .5rem}
