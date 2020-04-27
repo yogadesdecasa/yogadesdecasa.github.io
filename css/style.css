@@ -65,7 +65,7 @@ h3, .tres {font-size: 1.953em;}
 h4, .cuatro {font-size: 1.563em;}
 h5, .cinco {font-size: 1.25em;}
 .reg {font-size: 1em;}
-small, .small {font-size: 0.8em;}
+small, .small {font-size: 0.8em; line-height: 1.33333}
 .xsmall {font-size: 0.64em;}
 
 
@@ -95,7 +95,7 @@ ul {list-style: none;}
 .regular {font-weight: 400 !important;}
 .bold {font-weight: 700;}
 .xbold {font-weight: 800;}
-.underline {display: inline-block; border-bottom: solid 1px initial;}
+.underline {display: inline-block; border-bottom: solid 1px;}
 
 /* -------- COLORS -------- */
 
@@ -114,13 +114,13 @@ ul {list-style: none;}
 
 
 /* Text Colors */
-.beige {color: #F5EBEC !important;}
-.orange {color: #FF560D !important;}
-.yellow {color: #FFC30D !important;}
-.blue {color: #7674f4 !important;}
-.pink {color: #F784A9 !important;}
-.black {color: #241B2C !important;}
-.white {color: white !important;}
+.beige, .beige a {color: #F5EBEC !important;}
+.orange, .orange a {color: #FF560D !important;}
+.yellow, .yellow a {color: #FFC30D !important;}
+.blue, .blue a {color: #7674f4 !important;}
+.pink, .pink a {color: #F784A9 !important;}
+.black, .black a {color: #241B2C !important;}
+.white, .white a {color: white !important;}
 
 
 
