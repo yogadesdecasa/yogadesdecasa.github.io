@@ -113,13 +113,13 @@ ul {list-style: none;}
 
 
 /* Text Colors */
-.beige {color: #F5EBEC;}
-.orange {color: #FF560D;}
-.yellow {color: #FFC30D;}
-.blue {color: #7674f4;}
-.pink {color: #F784A9;}
-.black {color: #241B2C;}
-.white {color: white;}
+.beige {color: #F5EBEC !important;}
+.orange {color: #FF560D !important;}
+.yellow {color: #FFC30D !important;}
+.blue {color: #7674f4 !important;}
+.pink {color: #F784A9 !important;}
+.black {color: #241B2C !important;}
+.white {color: white !important;}
 
 
 
@@ -165,7 +165,7 @@ ul {list-style: none;}
 /* -------- GENERAL -------- */
 
 .button {
-	padding: 10px 20px; 
+	padding: .625em 1.25em; 
 	background-color: #241B2C; 
 	color: white; 
 	border-radius: 30px;
