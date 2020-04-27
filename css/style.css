@@ -134,6 +134,7 @@ ul {list-style: none;}
 .wrap {flex-wrap: wrap;}
 .space-between {justify-content: space-between;}
 .space-around {justify-content: space-around;}
+.items-start {align-items: flex-start;}
 .justify-center {justify-content: center;}
 .align-center {align-items: center;}
 .content-center {align-content: center;}
@@ -296,6 +297,11 @@ nav ul li:first-child {margin-left: 0rem;}
 	width: 50px; 
 	height: 50px; 
 }
+
+.como-funciona .steps {max-width: 30rem;}
+.como-funciona .step-p {max-width:25rem;}
+.items-start {align-items: flex-start;}
+
 
 /* Staff */
 #staff .profe {width: 100%; max-width: 35rem;}
