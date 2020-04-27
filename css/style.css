@@ -66,7 +66,7 @@ h4, .cuatro {font-size: 1.563em;}
 h5, .cinco {font-size: 1.25em;}
 .reg {font-size: 1em;}
 small, .small {font-size: 0.8em; line-height: 1.33333}
-.xsmall {font-size: 0.64em;}
+.xsmall {font-size: 0.64em; line-height: 1.33333}
 
 
 
@@ -301,7 +301,12 @@ nav ul li:first-child {margin-left: 0rem;}
 .como-funciona .steps {max-width: 30rem;}
 .como-funciona .step-p {max-width:25rem;}
 .items-start {align-items: flex-start;}
-
+.banks {
+	border: solid 1px;
+	padding: 1.5rem;
+	margin-left: 4.75rem;
+	border-radius: 10px;
+}
 
 /* Staff */
 #staff .profe {width: 100%; max-width: 35rem;}
