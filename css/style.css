@@ -250,7 +250,7 @@ header img {width: 50%; max-width: 240px;}
 /* Paquetes */
 
 .paquetes {width: 100%; align-content: stretch; justify-items: stretch}
-.paquetes-card {width: 24%; margin-bottom: 1rem; padding: 3rem 2.5rem; box-shadow: 0px 30px 60px rgba(0,0,0,.1);}
+.paquetes-card {width: 100%; margin-bottom: 1rem; padding: 3rem 2.5rem; box-shadow: 0px 30px 60px rgba(0,0,0,.1);}
 .paquetes dt {padding-top: 1rem; border-top: solid 1px; margin-top: -1px;}
 .paquetes dd {padding-bottom: 1.1rem; border-bottom: solid 1px;}
 .paquetes-card h3 {margin-bottom: .5rem;}
