@@ -263,7 +263,7 @@ nav ul li:first-child {margin-left: 0rem;}
 @media only screen and (min-width: 55rem) {
 	.day {width: 25%; text-align: left}
 	#horario .profe:first-child {margin-bottom: 1rem; margin-right: 0;}
-	.schedule .caption {max-width: 10rem;}
+	.schedule .caption {max-width: 12rem;}
 }
 
 /* Paquetes */
