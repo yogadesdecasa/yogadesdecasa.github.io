@@ -168,6 +168,12 @@ ul {list-style: none;}
 	.row-sm {flex-direction: row;}
 }
 
+.hide-mobile {display: none;}
+
+@media only screen and (min-width: 45rem) {
+	.hide-mobile {display: block;}
+}
+
 /* -------- GENERAL -------- */
 
 .button {
@@ -234,7 +240,7 @@ nav ul li:first-child {margin-left: 0rem;}
 .estilo-card {margin-bottom: 1rem; padding: 3rem 2.5rem; box-shadow: 0px 30px 60px rgba(0,0,0,.1)}
 
 @media only screen and (min-width: 55rem) {
-	.estilo-card {width: 32%;}
+	.estilo-card {width: 49.25%;}
 }
 
 .intensidad li {
