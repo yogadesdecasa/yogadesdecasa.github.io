@@ -1,0 +1,4 @@
+Sitemap: http://yogadesdecasa.com/sitemap.xml
+
+User-agent: *
+Disallow: /js/
