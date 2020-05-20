@@ -82,7 +82,7 @@ small, .small {font-size: 0.8em; line-height: 1.33333}
 	.hero h1 {font-size: 3.052em;}
 }
 
-a {text-decoration: none;}
+a {text-decoration: none; transition: all 200ms ease-in-out; -webkit-transition: all 200ms ease-in-out;}
 ul {list-style: none;}
 .italic {font-style: italic;}
 .text-left {text-align: left;}
@@ -112,6 +112,10 @@ ul {list-style: none;}
 .black-bg {background-color: #241B2C !important;}
 .white-bg {background-color: white;}
 
+.button.orange-bg:hover {background-color: #de3c00 !important;}
+.button.blue-bg:hover {background-color: #6360e5 !important;}
+.button.pink-bg:hover {background-color: #eb5b98 !important;}
+
 
 /* Text Colors */
 .beige, .beige a {color: #F5EBEC !important;}
@@ -122,7 +126,8 @@ ul {list-style: none;}
 .black, .black a {color: #241B2C !important;}
 .white, .white a {color: white !important;}
 
-
+a.orange:hover {color: #de3c00 !important;}
+a.blue:hover {color: #6360e5 !important;}
 
 
 /* -------- LAYOUT -------- */
@@ -182,9 +187,12 @@ ul {list-style: none;}
 	color: white; 
 	border-radius: 30px;
 	margin: 8px 0;
+	-webkit-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
 }
 
 section {padding: 5rem 0;}
+section.small-padding {padding: 1.9rem 0 2.75rem;}
 
 .bg-cover {
 	background-size: cover;
@@ -214,6 +222,8 @@ nav ul li:first-child {margin-left: 0rem;}
 	nav ul li {margin-left: .5rem;}
 	nav ul li a {font-size: 0.7rem}
 }
+
+nav ul li a:hover {color: #7674f4 !important;}
 
 
 
