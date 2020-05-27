@@ -38,6 +38,16 @@
     
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167744393-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-167744393-1');
+	</script>
+	
 </head>
 	
 	
@@ -49,7 +59,7 @@
 		<nav>
 			<ul class="flex row wrap xbold small">
 				<li class="no-mt"><a class="black smooth-scroll" href="#planes">Planes</a></li>
-				<li class="no-mt hide-mobile"><a class="black smooth-scroll" href="#planes">Estilos</a></li>
+				<li class="no-mt hide-mobile"><a class="black smooth-scroll" href="#estilos">Estilos</a></li>
 				<li class="no-mt"><a class="black smooth-scroll" href="#horario">Horario</a></li>
 				<li class="no-mt"><a class="black" href="/como-funciona">Cómo Funciona</a></li>
 				<li class="no-mt"><a class="button orange-bg small xbold uppercase" href="https://yogadesdecasa.fitcoapp.net/#/site?onlyLogin=on" target="_blank">Regístrate <i class="external"></i></a></li>
@@ -275,7 +285,7 @@
 		
 		
 		<!-- ESTILOS -->
-		<section class="text-center white-bg estilos">
+		<section id="estilos" class="text-center white-bg estilos">
 			<div class="container flex col align-center">
 				<h2 class="reg uppercase orange mt-2 mb-2">Nuestros Estilos</h2>
 				<p class="intro-title dos xbold mb-2 no-mt lh-sm">Elige el estilo ideal para tu práctica</p>
