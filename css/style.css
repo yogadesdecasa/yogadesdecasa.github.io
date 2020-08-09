@@ -289,6 +289,9 @@ nav ul li a:hover {color: #7674f4 !important;}
 	.schedule .caption {max-width: 12rem;}
 }
 
+.no-class {opacity: 0;}
+.day-divider {margin-bottom: 1rem; opacity: .2;}
+
 /* Paquetes */
 
 .paquetes {width: 100%; align-content: stretch; justify-items: stretch}
