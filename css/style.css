@@ -108,6 +108,7 @@ ul {list-style: none;}
 .orange-bg {background-color: #FF560D !important;}
 .yellow-bg {background-color: #FFC30D !important;}
 .blue-bg {background-color: #8684EF !important;}
+.green-bg {background-color: #A8A777 !important;}
 .pink-bg {background-color: #F784A9 !important;}
 .black-bg {background-color: #241B2C !important;}
 .white-bg {background-color: white;}
@@ -123,6 +124,7 @@ ul {list-style: none;}
 .yellow, .yellow a {color: #FFC30D !important;}
 .blue, .blue a {color: #7674f4 !important;}
 .pink, .pink a {color: #F784A9 !important;}
+.green, .green a {color: #A8A777 !important;}
 .black, .black a {color: #241B2C !important;}
 .white, .white a {color: white !important;}
 
@@ -288,8 +290,9 @@ nav ul li a:hover {color: #7674f4 !important;}
 	#horario .profe:first-child {margin-bottom: 1rem; margin-right: 0;}
 	.schedule .caption {max-width: 12rem;}
 }
-
-.no-class {opacity: 0;}
+#horario dt { margin-bottom: 3px}
+ 
+.no_class {opacity: 0.05;}
 .day-divider {margin-bottom: 1rem; opacity: .2;}
 
 /* Paquetes */
@@ -335,16 +338,14 @@ nav ul li a:hover {color: #7674f4 !important;}
 }
 
 /* Staff */
-#staff .profe {width: 100%; max-width: 35rem;}
-#staff .profe:first-child {margin-bottom: 2rem;}
-#staff .profe img {width: 30%}
-#staff .info {margin-left: 1rem;}
+#staff .profe {max-width: 35rem; width: 100%; margin: 2rem 3% 0}
+#staff .profe:last-child {margin-bottom: 0;}
+#staff .profe img {max-width: 5rem; border-radius: 100%;}
+#staff .profe .info {display: flex; flex-direction: row; align-items: center; margin-bottom: 1rem;}
+#staff .meta {margin-left: 1rem;}
 
 @media only screen and (min-width: 55rem) {
-	#staff .profe:first-child {margin-right: 5%;}
-	#staff .profe img {width:48%}
-	.info {width: 48%;}
-	#staff .profe:first-child {margin-bottom: 0rem;}
+	#staff .profe {width: 25%;}
 }
 
 /* FAQ */
