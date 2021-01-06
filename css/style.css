@@ -287,7 +287,7 @@ nav ul li a:hover {color: #7674f4 !important;}
 
 @media only screen and (min-width: 55rem) {
 	.day {width: 25%; text-align: left}
-	#horario .profe:first-child {margin-bottom: 1rem; margin-right: 0;}
+	#horario .profe:not(:last-child) {margin-bottom: 1rem; margin-right: 0;}
 	.schedule .caption {max-width: 12rem;}
 }
 #horario dt { margin-bottom: 3px}
